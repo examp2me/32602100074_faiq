@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  font-family: "Poppins", "sans-Serif";
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section {
+  min-height: 600px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: grey;
+  padding: 0px;
+  align-items: left;
+}
+
+.navbar-icon {
+  padding-left: 2%;
+}
+
+.navbar-page ul {
+  padding-left: 0px;
+  width: 10px;
+}
+.navbar-page ul {
+  color: black;
+}
+.navbar-page li {
+    display: flex;
+    float: left;
+    flex-direction: row;
+}
+
+.navbar-sosmed {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.banner {
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.banner .name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.banner .description {
+  font-size: 16px;
+  color: blue;
+}
+
+/* CSS khusus untuk halaman konten */
+.content {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.content h1 {
+  color: black;
+}
+
+.content p {
+  color: #666;
+}
